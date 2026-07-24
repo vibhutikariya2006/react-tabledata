@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+
+}
+
+/* Main Container */
+.container {
+  width: 98%;
+  margin: 30px auto;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1200px;
+}
+
+/* Header */
+thead {
+  background-color: #2563eb;
+}
+
+thead th {
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Body */
+tbody td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+tbody tr:hover {
+  background-color: #e0f2fe;
+  transition: 0.3s;
+}
+
+/* Product Image */
+tbody img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* Description */
+.description {
+  width: 300px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Price */
+.price {
+  color: #16a34a;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* Buttons */
+td button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Edit Button */
+td button:first-child {
+  background-color: #f59e0b;
+}
+
+td button:first-child:hover {
+  background-color: #d97706;
+}
+
+/* Delete Button */
+td button:last-child {
+  background-color: #dc2626;
+}
+
+td button:last-child:hover {
+  background-color: #b91c1c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .heading {
+    font-size: 26px;
+  }
+
+  table {
+    min-width: 1000px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  tbody img {
+    width: 60px;
+    height: 60px;
+  }
+
+  td button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

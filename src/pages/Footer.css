@@ -1,0 +1,42 @@
+.footer{
+    background:#2563eb;
+    color:white;
+    margin-top:50px;
+    padding:30px 20px;
+    text-align:center;
+}
+
+.footer-content{
+    max-width:1000px;
+    margin:auto;
+}
+
+.footer h2{
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+.footer p{
+    margin:10px 0;
+    font-size:16px;
+    line-height:1.6;
+}
+
+.footer hr{
+    width:80%;
+    margin:20px auto;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.3);
+}
+
+@media(max-width:768px){
+
+.footer h2{
+    font-size:22px;
+}
+
+.footer p{
+    font-size:14px;
+}
+
+}
