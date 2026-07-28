@@ -5,10 +5,10 @@ import TableData from "./pages/TableData";
 import AddData from "./pages/AddData";
 import EditData from "./pages/EditData";
 import DeleteData from "./pages/DeleteData";
-
-import "./App.css";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
+
+import "./App.css";
 
 
 const App = () => {

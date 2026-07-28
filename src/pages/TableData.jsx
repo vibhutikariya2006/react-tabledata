@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const TableData = ({ products, setProducts }) => {
-
-  const navigate = useNavigate();   // ✅ Add this line
+   
+  
+  const navigate = useNavigate();
 
   const fetchProduct = async () => {
     try {
@@ -64,14 +65,14 @@ const TableData = ({ products, setProducts }) => {
               <td >{product.availabilityStatus || "In Stock"}</td>
            <td>
   <button onClick={() => navigate(`/edit/${product.id}`)}>
-    Edit
+    <i class="ri-pencil-fill"></i>
   </button>
 
   <button
     onClick={() => navigate(`/delete/${product.id}`)}
     style={{ marginLeft: "10px" }}
   >
-    Delete
+    <i class="ri-delete-bin-fill"></i>
   </button>
 </td>
             </tr>
