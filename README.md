@@ -73,7 +73,7 @@ Is project me user products ko **View, Add, Edit aur Delete** kar sakta hai. Pro
 
 ## 🔹 Screenshots
 👉 **Slider Screen Recording:**
-
+https://drive.google.com/file/d/1m--nabx2ZZEcrsqmZ-JVG8aVrYB3_Vwq/view?usp=drive_link
 
 👉 **Application Screenshot**
 
