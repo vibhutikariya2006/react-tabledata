@@ -16,7 +16,6 @@ Is project me user products ko **View, Add, Edit aur Delete** kar sakta hai. Pro
 * 🗑️ Delete Product with Confirmation
 * 🔄 Dynamic UI Updates
 * 🧭 React Router Navigation
-* 📱 Responsive Design
 * 🌐 API Integration using DummyJSON
 
 ---
@@ -29,7 +28,7 @@ Is project me user products ko **View, Add, Edit aur Delete** kar sakta hai. Pro
 * **Fetch API** ki help se DummyJSON API se products retrieve kiye gaye hain.
 * **React Router DOM** ka use karke Home, Add, Edit aur Delete pages ke beech navigation implement ki gayi hai.
 * **Conditional Rendering** aur **Array map()** ka use karke dynamic product table display ki gayi hai.
-* **CSS3** ki help se responsive aur modern user interface design kiya gaya hai.
+* **CSS3** ki help se modern user interface design kiya gaya hai.
 
 ---
 
@@ -50,7 +49,6 @@ Is project me user products ko **View, Add, Edit aur Delete** kar sakta hai. Pro
 * Add New Product
 * Edit Product Details
 * Delete Product with Confirmation
-* Responsive Product Table
 * Dynamic State Management
 * Navigation Between Pages
 * Modern User Interface
@@ -60,14 +58,14 @@ Is project me user products ko **View, Add, Edit aur Delete** kar sakta hai. Pro
 ## 🔹 Live / Deploy Link
 
 👉 **Live Project:**
-
+https://github.com/vibhutikariya2006/react-tabledata.git
 
 ---
 
 ## 🔹 Project Explanation Video
 
 👉 **Explanation Video:**
-
+https://drive.google.com/file/d/1M0vT21Kv4CTxy2X5Zo0dkPI5I_28GvoF/view?usp=sharing
 
 ---
 
@@ -85,15 +83,19 @@ https://drive.google.com/file/d/1m--nabx2ZZEcrsqmZ-JVG8aVrYB3_Vwq/view?usp=drive
 
 ```text
 src/
-│── components/
-│   ├── Navbar.jsx
-│   ├── Footer.jsx
+│── assets/
+│   ├── Screenshot.png
 │
 │── pages/
 │   ├── TableData.jsx
 │   ├── AddData.jsx
 │   ├── EditData.jsx
 │   └── DeleteData.jsx
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.css
+│   ├── Footer.css
+
 │
 │── App.jsx
 │── App.css
